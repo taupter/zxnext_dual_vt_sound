@@ -12,11 +12,15 @@
 #include <string.h>
 #include <time.h>
 #include <sys/time.h>
+
+#include "config/zconfig.h"
+
+#include "zxnext/src/dma.h"
+#include "zxnext/src/bank.h"
+#include "zxnext/src/sound.h"
+
 #include "soundbank.h"
-#include "bank.h"
-#include "sound.h"
 #include "globals.h"
-#include "dma.h"
 
 unsigned char m_tick;
 unsigned long m_milliseconds;
